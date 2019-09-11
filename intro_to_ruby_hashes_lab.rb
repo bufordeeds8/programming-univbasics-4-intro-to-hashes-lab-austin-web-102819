@@ -20,7 +20,7 @@ def id_generator
   }
 end
 
-def my_hash_creator(key, value) do {
+def my_hash_creator(key, value) {
 Hash.new(key: value)
 }
 end
